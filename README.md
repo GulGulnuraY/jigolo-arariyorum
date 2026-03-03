@@ -1,1 +1,0 @@
-# jigololar-ariyorum
